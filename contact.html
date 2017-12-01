@@ -1,32 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>contact</title>
-    <!-- link to stylesheet -->
-    <link rel="stylesheet" type="text/css" href="reset.css"/>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/w3.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 </head>
+
 <body>
-    <div id="contact">
-        <h1>Contact</h1>
-        <form action="#" method="post">
-            <!-- fieldsets contain form elements -->
-            <fieldset>
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Sarah Avwata"/>
-
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="example@gmail.com"/>
-
-                <label for="message">Message</label>
-                <textarea id="message" placeholder="What's on your mind?"></textarea>
-
-                <input type="submit" value="Submit"/>
-            </fieldset>
-        </form>
+    <div id="head-bar">
+        <div id="head-width">
+            <header>
+                <h1>Sarah Avwata</h1>
+            </header>
+            <nav>
+                <a href="index.html">About</a> |
+                <a href="portfolio.html">Portfolio</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </div>
+    <div id="site-body">
+        <aside>
+            <h3>Connect with Me</h3>
+            <br>
+            <a href="https://github.com/sarahav2" target="blank">
+                <img src="assets/images/github.png" alt="Github">
+            </a>
+            &nbsp;
+            <a href="https://www.linkedin.com/sarah-avwata" target="blank">
+                <img src="assets/images/linkedin.png" alt="LinkedIn">
+            </a>
+            &nbsp;
+            <a href="https://www.starkoverflow.com/sarahav" target="blank">
+                <img src="assets/images/starkoverflow.jpeg" alt="">
+            </a>
+        </aside>
+        <article>
+            <h2>Contact</h2>
+            <br> Name
+            <br>
+            <br>
+            <input type="text" placeholder="  John Smith">
+            <br>
+            <br> Email
+            <br>
+            <br>
+            <input type="text" placeholder="  example@gmail.com">
+            <br>
+            <br> Message
+            <br>
+            <br>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <button class="w3-button w3-teal">Submit</button>
+        </article>
+    </div>
+
+    <footer>
+        <br> &copy; Copyright 2017 Sarah Avwata
+    </footer>
 </body>
+
 </html>
